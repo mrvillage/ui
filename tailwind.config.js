@@ -1,15 +1,16 @@
+// 800, 700, 600
 const gray = {
   100: '#eeeeee',
   200: '#e0e0e0',
   300: '#bbbbbb',
   400: '#666666',
   500: '#444444',
-  650: '#333',
+  550: '#333333',
   600: '#2a2a2a',
   700: '#1f1f1f',
   800: '#181818',
   900: '#0f0f0f',
-}
+};
 const brand = {
   100: '#c5f1dd',
   200: '#c5f1dd',
@@ -68,10 +69,10 @@ module.exports = {
         DEFAULT: {
           css: {
             'code::before': {
-              content: '""',
+              content: '''',
             },
             'code::after': {
-              content: '""',
+              content: '''',
             },
           },
         },
